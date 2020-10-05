@@ -8,7 +8,7 @@ class FriendshipsController < ApplicationController
     end
     redirect_to root_path
   end
-    
+
   def update
     Friendship.find(params[:id]).update(confirmed: true)
     redirect_to root_path
