@@ -2,9 +2,9 @@ class FriendshipsController < ApplicationController
     def create
         @friendship = Friendship.create(user_id: current_user.id, friend_id: params[:friend_id], confirmed: true)
         if @friendship.save
-          flash[:notice] = 'Added as a friend'
+          flash[:notice] = 'You are now friends'
         else
-          flash[:alert] = 'There was something wrong with the tracking request'
+          flash[:alert] = 'Friend not added for some reasons'
         end
         redirect_to root_path
       end
