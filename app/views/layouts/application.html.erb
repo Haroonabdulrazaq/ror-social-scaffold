@@ -18,6 +18,9 @@
           <%= menu_link_to 'All users', users_path %>
         </div>
       </div>
+      <div>
+      <p class="username"><%= current_user.name %></p>
+      </div>
       <% if current_user %>
         <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
       <% else %>

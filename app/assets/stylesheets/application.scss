@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+.username {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-right: 10px;
+}
