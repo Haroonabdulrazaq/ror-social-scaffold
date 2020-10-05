@@ -34,6 +34,16 @@
         <p> <%= alert %> </p>
       </div>
     <% end %>
+
+    <div class="Request"> 
+      <% if current_user %>
+        <% pending_friend_requests(current_user).each do |request| %>
+          <p><%= request.user.name %> sent you a friend request!</p></br>
+          <%= button_to "Accept", "/friendships/#{request.id}", method: :patch %>
+          <%= button_to "Reject", "/friendships/#{request.id}", method: :delete %>
+        <% end %>
+      <% end %>
+    </div>
     <main class="main">
       <%= yield %>
     </main>
