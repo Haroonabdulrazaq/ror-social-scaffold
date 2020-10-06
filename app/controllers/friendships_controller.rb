@@ -1,5 +1,4 @@
 class FriendshipsController < ApplicationController
-
   def create
     @friendship = Friendship.create(user_id: current_user.id, friend_id: params[:friend_id], confirmed: false)
     if @friendship.save
