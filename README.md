@@ -1,6 +1,5 @@
 # Scaffold for social media app with Ruby on Rails
-
-> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
+It's a social media application that allows users to send friend request, accept friend request, interact like writing a post, liking a post and commenting on that post. The application is secured using Devise gem.
 
 ## Built With
 
@@ -16,6 +15,11 @@ TBA
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+- Fork the repository on github
+- Change directory into the repository
+- Run bundle install
+- Run migration
+
 
 ### Prerequisites
 
