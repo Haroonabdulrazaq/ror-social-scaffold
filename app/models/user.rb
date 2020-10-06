@@ -20,6 +20,6 @@ class User < ApplicationRecord
   has_many :pending_friends, through: :pending_friendships, source: :friend
 
   def friends_and_own_posts
-    Post.where(user: (self.friends + self))
+    Post.where(user: (friends + self))
   end
 end
