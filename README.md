@@ -17,7 +17,7 @@ TBA
 To get a local copy up and running follow these simple example steps.
 - Fork the repository on github
 - Change directory into the repository
-- Run bundle install
+- Install all gems
 - Run migration
 
 
