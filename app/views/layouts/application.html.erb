@@ -44,7 +44,7 @@
       <% if current_user %>
         <% pending_requests(current_user).each do |request| %>
           <p><%= request.user.name %> sent you a friend request!</p></br>
-          <% if request.confirmed == true %>
+          <% if request.confirmed == false %>
             <%= button_to "Accept", "/friendships/#{request.id}", method: :patch %>
             <%= button_to "Reject", "/friendships/#{request.id}", method: :delete %>
           <% end %>
