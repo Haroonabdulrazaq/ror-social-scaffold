@@ -9,7 +9,7 @@ It's a social media application that allows users to send friend request, accept
 
 ## Live Demo
 
-TBA
+[Social-media-scaffold](https://social-media-scaffold.herokuapp.com/users/sign_in)
 
 
 ## Getting Started
