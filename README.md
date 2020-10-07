@@ -18,7 +18,9 @@ To get a local copy up and running follow these simple example steps.
 - Fork the repository on github
 - Change directory into the repository
 - Install all gems
+- Create Database
 - Run migration
+
 
 
 ### Prerequisites
@@ -42,9 +44,9 @@ Setup database with:
    rails db:migrate
 ```
 ### Test 
-- ```rails spec```
-
-
+ ```
+    rails spec
+ ```
 
 ### Github Actions
 
@@ -76,11 +78,22 @@ Open `http://localhost:3000/` in your browser.
 
 ### Deployment
 
-TBA
+ Heroku
 
-## Authors
+## ✒️ Authors <a name = "author"></a>
 
-TBA
+👤 **Haroon Abdulrazaq**
+
+- Github: [@Haroonabdulrazaq](https://github.com/Haroonabdulrazaq)
+- Twitter: [@Hanq_o](https://twitter.com/Hanq_o)
+- Linkedin: [Haroonabdulrazaq](https://www.linkedin.com/in/haroon-abdulrazaq/)
+
+
+👤 **Luciano ilha carbonel**
+
+- Github: [@Luciano ilha](https://github.com/luciano-ilha)
+- Twitter: [@CarbonellIlha](https://twitter.com/CarbonellIlha )
+- Linkedin: [@Luciano ilha](hhttps://www.linkedin.com/in/luciano-carbonell-188115a0/)
 
 ## 🤝 Contributing
 
