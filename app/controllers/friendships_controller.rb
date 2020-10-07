@@ -1,6 +1,6 @@
 class FriendshipsController < ApplicationController
   def create
-    @friendship = Friendship.create(user_id: current_user.id, friend_id: params[:friend_id], confirmed: false)
+    @friendship = Friendship.create(user_id: current_user.id, friend_id: params[:friend_id], confirmed: true)
     if @friendship.save
       flash[:notice] = 'Request is sent succesfully'
     else
@@ -10,7 +10,7 @@ class FriendshipsController < ApplicationController
   end
 
   def update
-    Friendship.find(params[:id]).update(confirmed: false)
+    Friendship.find(params[:id]).update(confirmed: true)
     flash[:notice] = 'Now you are friends!'
     redirect_to root_path
   end
