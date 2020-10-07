@@ -1,11 +1,11 @@
 # Scaffold for social media app with Ruby on Rails
-
-> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
+It's a social media application that allows users to send friend request, accept friend request, interact like writing a post, liking a post and commenting on that post. The application is secured using Devise gem.
 
 ## Built With
 
 - Ruby v2.7.0
 - Ruby on Rails v5.2.4
+- Postgres 12.0
 
 ## Live Demo
 
@@ -15,6 +15,13 @@ TBA
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+- Fork the repository on github
+- Change directory into the repository
+- Install all gems
+- Create Database
+- Run migration
+
+
 
 ### Prerequisites
 
@@ -36,6 +43,10 @@ Setup database with:
    rails db:create
    rails db:migrate
 ```
+### Test 
+ ```
+    rails spec
+ ```
 
 ### Github Actions
 
@@ -67,27 +78,47 @@ Open `http://localhost:3000/` in your browser.
 
 ### Deployment
 
-TBA
+ Heroku
 
-## Authors
+## ✒️ Authors <a name = "author"></a>
 
-TBA
+👤 **Haroon Abdulrazaq**
+
+- Github: [@Haroonabdulrazaq](https://github.com/Haroonabdulrazaq)
+- Twitter: [@Hanq_o](https://twitter.com/Hanq_o)
+- Linkedin: [Haroonabdulrazaq](https://www.linkedin.com/in/haroon-abdulrazaq/)
+
+
+👤 **Luciano ilha carbonel**
+
+- Github: [@Luciano ilha](https://github.com/luciano-ilha)
+- Twitter: [@CarbonellIlha](https://twitter.com/CarbonellIlha )
+- Linkedin: [@Luciano ilha](hhttps://www.linkedin.com/in/luciano-carbonell-188115a0/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the fork this repo and create pull request if you want to make changes.
 
-## Show your support
+## Show your support :muscle:
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## :thumbsup: Acknowledgements
 
-TBA
+- Microverse  
+- ThOdinProject 
 
-## 📝 License
+## MIT Licence <a name = "licence"></a>  :registered:
 
-TBA
+MIT License
 
+Copyright (c) 2020 Haroon Abdulrazaq
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so.
