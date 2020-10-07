@@ -99,17 +99,26 @@ Open `http://localhost:3000/` in your browser.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the fork this repo and create pull request if you want to make changes.
 
-## Show your support
+## Show your support :muscle:
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## :thumbsup: Acknowledgements
 
-TBA
+- Microverse  
+- ThOdinProject 
 
-## 📝 License
+## MIT Licence <a name = "licence"></a>  :registered:
 
-TBA
+MIT License
 
+Copyright (c) 2020 Haroon Abdulrazaq
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so.
