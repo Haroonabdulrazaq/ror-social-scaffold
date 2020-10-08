@@ -15,7 +15,7 @@ It's a social media application that allows users to send friend request, accept
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-- Fork the repository on github
+- Fork this repository on github
 - Change directory into the repository
 - Install all gems
 - Create Database
@@ -50,7 +50,7 @@ Setup database with:
 
 ### Github Actions
 
-To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
+To make sure the linters' checks using Github Actions works properly, you should follow the next steps:
 
 1. On your recently forked repo, enable the GitHub Actions in the Actions tab.
 2. Create the `feature/branch` and push.
